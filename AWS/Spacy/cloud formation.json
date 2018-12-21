@@ -567,7 +567,7 @@
 				"yum install -y gcc-c++\n",
     			"yum remove -y java-1.7.0-openjdk\n",
     			"yum install -y java-1.8.0\n",
-				"\n",
+				"pip install -U spacy\n",
                 "aws s3 cp s3://somebucketofyours/SmartArchitecture-Jetty-1.0-SNAPSHOT.jar /home/ec2-user/SmartArchitecture-Jetty.jar\n",
                 "java -jar /home/ec2-user/SmartArchitecture-Jetty.jar com.threeandahalfroses.ai.architecture.boiled.BoiledSpacy &\n",
                 "# Signal the status from cfn-init\n",
